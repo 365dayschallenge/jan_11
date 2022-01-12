@@ -4,7 +4,10 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif; 
-    background-color: rgb(8, 8, 26);  
+}
+
+body{
+    background-color: rgb(8, 8, 26);
 }
 
 nav{
@@ -12,7 +15,6 @@ nav{
     height: 60px;
     line-height: 75px;
     position: fixed;
-    background-color: rgb(41, 40, 40);
     padding: 0px;
     z-index: 1;
 }
@@ -43,6 +45,13 @@ a:hover{
     color: greenyellow;
 }
 .search_bar{
-    width: 100%;
-    padding: 12px 20px;
-    background-color: rgb(247, 250, 252);
+    width: 40%%;
+    padding: 1rem 1.2rem;
+    background-color: rgb(252, 251, 253);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 2.5rem;
+    border-radius: 2.5rem;
+}
